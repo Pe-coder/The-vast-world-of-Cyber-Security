@@ -1,0 +1,136 @@
+
+head{
+    margin: 0;
+    font-family: arcade;
+}
+
+.topbar{
+    
+    overflow: hidden;
+    background-color: gray;
+
+}
+
+.topbar a{
+    margin: 1;
+    font-family: arcade;
+    float: left;
+    color: #7CFC00;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.topbar a:hover{
+
+background-color: #ddd;
+color: black;
+
+}
+
+.topbar a:active{
+
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+h1 {
+    font-family: arcade;
+    color:#7CFC00;
+    margin-left: 150px ;
+    font-size: 75px;
+    animation: type 2s steps(31);
+    overflow: hidden;
+    white-space:nowrap;
+    border-right: 4px solid #7CFC00;
+    width: 31ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 31ch;
+    }
+}
+
+body{
+    
+    background-color: black;
+}
+p1{
+    font-size: 20px;
+    font-family: arcade;
+    color: #7CFC00;
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 100px 200px;
+    font-family: arcade;
+    font-size: 75px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 14px #7CFC00;
+}
+
+.btn1:hover {
+    background-color: #3e8e41
+}
+
+.btn1:active{
+    background-color: #3e8e41;
+  box-shadow: 0 10px #7CFC00;
+  transform: translateY(4px);
+
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 100px 200px;
+    font-family: arcade;
+    font-size: 75px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 14px #7CFC00;
+
+}
+
+.btn2:hover {
+    background-color: #3e8e41
+}
+
+
+.btn2:active{
+    background-color: #3e8e41;
+  box-shadow: 0 10px #7CFC00;
+  transform: translateY(4px);
+}

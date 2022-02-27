@@ -1,0 +1,109 @@
+h1{
+    font-family: arcade;
+    color: #7CFC00;
+    margin-left: 550px;
+    font-size: 100px;
+    animation: type 1s steps(8);
+    overflow: hidden;
+    white-space:nowrap;
+    border-right: 4px solid #7CFC00;
+    width: 8ch;
+    
+    }
+
+    @keyframes type {
+        0% {
+            width: 0ch;
+        }
+        100% {
+            width: 8ch;
+        }
+    }
+
+    .head{
+        margin: 1;
+        font-family: arcade;
+
+    
+    }
+
+    .topbar{
+    
+        overflow: hidden;
+        background-color: gray;
+    
+    }
+    
+    .topbar a{
+        margin: 1;
+        font-family: arcade;
+        float: left;
+        color: #7CFC00;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 24px;
+    
+    }
+    
+    .topbar a:hover{
+    
+    background-color: #ddd;
+    color: black;
+    
+    }
+    
+    .topbar a:active{
+    
+        background-color: #04AA6D;
+        color: white;
+    
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
+
+    body{
+        background-color: black;
+    }
+
+    p1{
+        font-size: 40px;
+        font-family: arcade;
+        color: #7CFC00;
+        
+    }
+
+    .sub{
+        display: inline-block;
+    padding: 16px 22px;
+    font-family: arcade;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 6px #7CFC00;
+    }
+
+    .sub:hover{
+        background-color: #3e8e41
+    }
+
+    .sub:active{
+        background-color: #3e8e41;
+  box-shadow: 0 2px #7CFC00;
+  transform: translateY(4px);
+    }
+
+

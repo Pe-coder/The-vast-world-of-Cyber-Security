@@ -1,0 +1,151 @@
+h1{
+font-family: arcade;
+color: #7CFC00;
+margin-left: 550px;
+font-size: 100px;
+animation: type 1s steps(8);
+overflow: hidden;
+white-space:nowrap;
+border-right: 4px solid #7CFC00;
+width: 8ch;
+
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 8ch;
+    }
+}
+
+
+body{
+    background-color: black;
+}
+
+
+table, td, th{
+    font-family: arcade;
+    border-collapse: collapse;
+    width: 80%;
+    color: #7CFC00;
+    border: 3px solid white;
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #424242;
+}
+
+.btns1{
+    display: inline-block;
+    padding: 16px 22px;
+    font-family: arcade;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 6px #7CFC00;
+}
+
+.btns1:hover {
+    background-color: #3e8e41
+}
+
+.btns1:active{
+    background-color: #3e8e41;
+  box-shadow: 0 2px #7CFC00;
+  transform: translateY(4px);
+
+}
+
+.btn2{
+    display: inline-block;
+    padding: 16px 22px;
+    font-family: arcade;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 6px #7CFC00;
+}
+
+.btn2:hover {
+    background-color: #3e8e41
+}
+
+.btn2:active{
+    background-color: #3e8e41;
+  box-shadow: 0 2px #7CFC00;
+  transform: translateY(4px);
+
+}
+
+.btn3{
+    display: inline-block;
+    padding: 16px 22px;
+    font-family: arcade;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 6px #7CFC00;
+}
+
+.btn3:hover {
+    background-color: #3e8e41
+}
+
+.btn3:active{
+    background-color: #3e8e41;
+  box-shadow: 0 2px #7CFC00;
+  transform: translateY(4px);
+
+}
+
+.btn4{
+    display: inline-block;
+    padding: 16px 22px;
+    font-family: arcade;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #7CFC00;
+    background-color: #363a37;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 6px #7CFC00;
+}
+
+.btn4:hover {
+    background-color: #3e8e41
+}
+
+.btn4:active{
+    background-color: #3e8e41;
+  box-shadow: 0 2px #7CFC00;
+  transform: translateY(4px);
+
+}
